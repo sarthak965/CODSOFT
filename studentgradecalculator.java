@@ -11,10 +11,10 @@ public class studentgradecalculator {
         System.out.println("Enter the total number of subjects: ");
         totalSubcount = scn.nextFloat();
         for (int i = 1; i <= totalSubcount; i++) {
-            // System.out.println("Enter the name for subject " + subname);
-
-            // subname = scn.nextLine();
-            System.out.println("Enter the marks for subject " + i);
+            System.out.println("Enter the name for subject ");
+            String subname = scn.nextLine();
+            scn.nextLine();
+            System.out.println("Enter the marks for subject " + subname);
             totalMarks += scn.nextFloat();
         }
         averagepct = (totalMarks / (totalSubcount * 100)) * 100;
