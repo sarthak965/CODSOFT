@@ -11,6 +11,7 @@ public class studentgradecalculator {
         System.out.println("Enter the total number of subjects: ");
         totalSubcount = scn.nextFloat();
         for (int i = 1; i <= totalSubcount; i++) {
+            // String subname = scn.nextLine();
             System.out.println("Enter the name for subject ");
             String subname = scn.nextLine();
             scn.nextLine();
